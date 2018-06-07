@@ -7,11 +7,11 @@ import Route3 from './components/Route3';
 
 function Routes() {
     return(
-        <switch>
-            <Route path='/1' component={Route1}/>
-            <Route path='/2' component={Route2}/>
-            <Route path='/3' component={Route3}/>
-        </switch>
+        <Switch>
+            <Route exact path='/' component={Route1} />
+            <Route path='/2' component={Route2} />
+            <Route path='/3' component={Route3} />
+        </Switch>
     )
 }
 
